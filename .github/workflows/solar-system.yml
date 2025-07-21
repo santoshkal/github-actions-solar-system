@@ -30,7 +30,6 @@ jobs:
           path: test-results.xml
 
   dev-deploy:
-    needs: docker
     runs-on: ubuntu-latest
     environment:
       name: development
